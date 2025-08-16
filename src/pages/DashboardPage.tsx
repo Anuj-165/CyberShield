@@ -130,7 +130,7 @@ const DashboardPage = () => {
                   <div className="flex items-center space-x-3">
                     <div className={`w-3 h-3 rounded-full ${getSeverityColor(threat.severity)}`}></div>
                     <div>
-                      <p className="font-semibold text-black">{threat.type} ({(threat.confidence * 100).toFixed(0)}%)</p>
+                      <p className="font-semibold text-white">{threat.type} ({(threat.confidence * 100).toFixed(0)}%)</p>
                       <p className="text-sm text-gray-400">{threat.source}</p>
                     </div>
                   </div>
